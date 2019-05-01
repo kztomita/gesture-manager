@@ -12,7 +12,7 @@ const banner =
 ' * https://opensource.org/licenses/MIT\n' +
 ' *\n' +
 ' * Version: ' + require('./package.json').version +'\n' +
-' * Commit: ' + revision +'\n' +
+//' * Commit: ' + revision +'\n' +
 ' * Build: ' + new Date() +'\n' +
 ' */\n';
 
