@@ -1,3 +1,12 @@
+/*
+ * GestureManager
+ *
+ * Copyright (c) 2019 Kazuyoshi Tomita
+ *
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
 import Vector from './vector.js';
 import Event from './event.js';
 import mixinListener from './listener.js';
