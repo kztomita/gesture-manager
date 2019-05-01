@@ -17,8 +17,8 @@
 
   window.onload = function () {
     var manager = GestureManager.createGestureManager('#screen');
-    manager.addEventListener('doubletap', function () {
-      log('doubletap');
+    manager.addEventListener('doubletap', function (e) {
+      log('doubletap: clientX ' + e.clientX + ', clientY ' + e.clientY);
     });
     manager.addEventListener('gesturestart', function (e) {log('gesturestart');});
     manager.addEventListener('gesturechange', function (e) {
