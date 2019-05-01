@@ -77,7 +77,7 @@ GestureManagerが生成するイベントは以下のものがあります。
 
 イベントハンドラに渡されるイベントオブジェクトのプロパティは以下のとおりです。
 
-|||
+|property|value|
 |-|-|
 |name|'doubletap'|
 |clientX|タップしたX座標|
@@ -89,7 +89,7 @@ GestureManagerが生成するイベントは以下のものがあります。
 
 イベントハンドラに渡されるイベントオブジェクトのプロパティは以下のとおりです。
 
-|||
+|property|value|
 |-|-|
 |name|'gesturestart'|
 
@@ -99,7 +99,7 @@ GestureManagerが生成するイベントは以下のものがあります。
 
 イベントハンドラに渡されるイベントオブジェクトのプロパティは以下のとおりです。
 
-|||
+|property|value|
 |-|-|
 |name|'gesturechange'|
 |scale|拡大率(初期値は1.0)|
@@ -116,7 +116,7 @@ GestureManagerが生成するイベントは以下のものがあります。
 
 イベントハンドラに渡されるイベントオブジェクトのプロパティは以下のとおりです。
 
-|||
+|property|value|
 |-|-|
 |name|'gestureend'|
 
