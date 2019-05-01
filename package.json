@@ -1,0 +1,24 @@
+{
+  "name": "gesture-manager",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:umd && npm run minify && npm run copy",
+    "build:umd": "LANG=C rollup -c config-umd.js",
+    "minify": "uglifyjs build/gesture-manager.js -c -m --comments '/^/*!/' -o build/gesture-manager.min.js",
+    "copy": "cp build/* sample/js/",
+    "dist": "cp build/* dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "uglify-js": "^3.5.9"
+  },
+  "dependencies": {}
+}
