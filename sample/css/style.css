@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+#screen {
+  background-color: #cccccc;
+  width: 100%;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+  font-family: 'Lato';
+
+  -webkit-touch-callout: none; /* iOS */
+  -webkit-user-select: none;   /* Safari */
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+#screen p {
+  font-size: 96px;
+  color: gray;
+}
+
+#footer {
+  height: 100px;
+  overflow: hidden;
+  font-size: 10px;
+}
+#footer .title {
+  font-weight: bold;
+  border-bottom: 1px dashed gray;
+}
+#footer p {
+  margin: 0px;
+  padding: 0px;
+}
+
