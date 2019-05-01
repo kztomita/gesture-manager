@@ -37,7 +37,7 @@ https://www.bit-hive.com/~tomita/github/gesturemanager/
     gesture-manager.js (UMD形式)
     gesture-manager.min.js (gesture-manager.jsをminifyしたもの)
 
-現在は&lt;script&gt;タグで読み込むためのUMD形式のみです。このファイルをhtmlファイルから&lt;script&gt;タグで読み込んでください。
+現在は&lt;script&gt;タグで読み込むためのUMD形式のみです。このファイルをWebサーバー上にアップロードし、htmlファイルから&lt;script&gt;タグで読み込んでください。
 
 
     <script type="text/javascript" src="js/gesture-manager.js"></script>
