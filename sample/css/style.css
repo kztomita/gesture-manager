@@ -1,5 +1,11 @@
+@-ms-viewport {
+  width: device-width;
+}
+
 html {
   height: 100%;
+  -ms-content-zooming: none;
+  -ms-touch-action: none;
 }
 
 body {

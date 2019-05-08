@@ -8,11 +8,17 @@
  */
 
 import GestureManager from './gesture-manager.js';
+import GestureManagerIE from './gesture-manager-ie.js';
 
 export default function createGestureManager(element) {
   if (typeof element == 'string') {
     element = document.querySelector(element);
   }
 
-  return new GestureManager(element);
+  var ua = navigator.userAgent.toLowerCase();
+  if (window.navigator.msPointerEnabled) {
+    return new GestureManagerIE(element);
+  } else {
+    return new GestureManager(element);
+  }
 }
